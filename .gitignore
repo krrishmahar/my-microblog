@@ -1,0 +1,170 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+logs
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# IDEs and editors #
+####################
+# JetBrains
+*.idea/
+*.iml
+# VS Code
+.vscode/
+# Sublime Text
+*.sublime-workspace
+
+# Python #
+##########
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.flaskenv
+__pycache__/
+*.__pycache__/
+*.pyc
+.Python
+*.env/
+*.flaskenv/
+*.venv/
+venv/
+*.myenv/
+*.ENV/
+env.bak/
+venv.bak/
+
+Week4_Python_Prep\microblog\*.json
+Week4_Python_Prep\microblog\transcode.json
+
+# Node.js #
+###########
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Build directories #
+#####################
+dist/
+build/
+
+# Coverage #
+############
+.coverage
+coverage/*
+.nyc_output
+
+# Environment variables #
+#########################
+.env
+.flaskenv
+*.db
+
+# Miscellaneous #
+#################
+*.swp
+*.swo
+*~
+
+# Specific to project-series #
+##############################
+project-series/logs/
+project-series/tmp/
+project-series/.env
+project-series/.flaskenv
+
+# Documentation #
+#################
+/doc
+
+# Temporary files #
+###################
+*.tmp
+*.temp
+
+# Backup files #
+################
+*.bak
+*.old
+*.orig
+
+*.gitkeep
+Week4_Python_Prep\Flask_Blog\
+
+# Java
+*.class
+*.zip
+*.tar.gz
+*.rar
+*.log
+*.jmx
+*.hprof
+hs_err_pid*
+*.java-recommenders
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Maven
+*.mvn
+*.mvnw
+*.mvnw.cmd
+log/
+target/
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEs and editors
+/.idea/
+/.project
+/.classpath
+/.settings
+/.vscode/
+/*.iml
+
+# Intellij
+*.iml
+*.iws
+.idea/
+out/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.ini
+
+# Others
+*.bak
+*.swp
