@@ -44,7 +44,13 @@
             </li>
             {% else %}
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="{{ url_for('main.user', username=current_user.username) }}">{{ _('Profile') }}</a>
+              <a class="nav-link" aria-current="page" href="{{ url_for('main.messages') }}">
+                  {{ _('Messages') }}
+              </a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="{{ url_for('main.user', username=current_user.username) }}">{{ _('Profile') }}
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="{{ url_for('auth.logout') }}">{{ _('Logout') }}</a>
